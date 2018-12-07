@@ -1,6 +1,6 @@
 # Image Caption Generator
 
-![](images/joomla_speech_prosody.png?raw=true)
+![](images/imagecaption?raw=true)
 
 * This is implementation of a image caption generator which generates a caption based on the things that are present in the image. Image captioning is a challenging task where computer vision and natural language processing both play a part to generate captions. This technology can be used in many new fields like helping visually impaired, medical image analysis, geospatial image analysis etc.
 

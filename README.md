@@ -1,6 +1,7 @@
 # Image Caption Generator
 
 ![](images/imagecaption.jpg?raw=true)
+© O'Reilly
 <br>
 * This is implementation of a image caption generator which generates a caption based on the things that are present in the image. Image captioning is a challenging task where computer vision and natural language processing both play a part to generate captions. This technology can be used in many new fields like helping visually impaired, medical image analysis, geospatial image analysis etc.
 
@@ -8,7 +9,7 @@
 * Some detailed usecases would be like an visually impaired person taking a picture from his phone and then the caption generator will turn the caption to speech for him to understand. Doctors can use this technology to find tumors or some defects in the images or used by people for understanding geospatial images where they can find out more details about the terrain.
 
 ![](images/joomla_speech_prosody.png?raw=true)
-©joomla_speech_prosody
+
 <br>
 
 ## Dataset:
@@ -65,4 +66,16 @@ The step involves building the LSTM model with two or three input layers and one
 ![](images/lstmmodel.PNG?raw=true)
 <br>
 
+### 8. Predicting on the test dataset and evaluating using BLEU scores
+After the model is trained, it is tested on test dataset to see how it performs on caption generation for just 5 images. If the captions are acceptable then captions are generated for the whole test data. 
 
+![](images/lstmmodel.PNG?raw=true)
+<br>
+
+These captions are comapred to the actual captions and evaluated using [BLEU](https://machinelearningmastery.com/calculate-bleu-score-for-text-python) scores as the evaluation metrics. A score closer to 1 indicates that the predicted and actual captions are very similar. As the scores are calculated for the whole test data, we get a mean value which contain good and not so good captions. Some of the examples can be seen below
+
+![](images/lstmmodel.PNG?raw=true)
+<br>
+
+## Conclusion
+Implementing the model is a time consuming task as it involved lot of testing with different hyperparameters to generate better captions. The model generates good captions for the provided image but it can always be improved.

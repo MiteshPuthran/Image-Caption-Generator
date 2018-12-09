@@ -8,7 +8,7 @@
 ## Use cases
 * Some detailed usecases would be like an visually impaired person taking a picture from his phone and then the caption generator will turn the caption to speech for him to understand. Doctors can use this technology to find tumors or some defects in the images or used by people for understanding geospatial images where they can find out more details about the terrain.
 
-![](images/joomla_speech_prosody.png?raw=true)
+![](images/usecase2.png?raw=true)
 
 <br>
 

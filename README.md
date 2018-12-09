@@ -69,7 +69,7 @@ The step involves building the LSTM model with two or three input layers and one
 ### 8. Predicting on the test dataset and evaluating using BLEU scores
 After the model is trained, it is tested on test dataset to see how it performs on caption generation for just 5 images. If the captions are acceptable then captions are generated for the whole test data. 
 
-![](images/lstmmodel.PNG?raw=true)
+![](images/pred2.PNG?raw=true)
 <br>
 
 These generated captions are compared to the actual captions from the dataset and evaluated using [BLEU](https://machinelearningmastery.com/calculate-bleu-score-for-text-python) scores as the evaluation metrics. A score closer to 1 indicates that the predicted and actual captions are very similar. As the scores are calculated for the whole test data, we get a mean value which contain good and not so good captions. Some of the examples can be seen below

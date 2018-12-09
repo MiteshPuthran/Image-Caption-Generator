@@ -18,6 +18,16 @@ This dataset includes around 1500 images along with 5 different captions written
 ![](images/dataset.PNG?raw=true)
 <br>
 
+## Flow of the project
+#### a. Cleaning the caption data
+#### b. Extracting features from images using VGG-16
+#### c. Merging the captions and images
+#### d. Building LSTM model for training
+#### e. Predicting on test data
+#### f. Evaluating the captions using BLEU scores as the metric
+
+<br>
+
 ## Steps to follow:
 
 ### 1. Cleaning the captions
@@ -36,13 +46,23 @@ Start and end sequence need to be added to the captions because the captions var
 ![](images/vgg16.PNG?raw=true)
 <br>
 
-#### 4. Viewing similar images
+### 4. Viewing similar images
 When the VGG-16 model finishes extracting features from all the images from the dataset, similar images from the clusters are displayed together to see if the VGG-16 model has extracted the features correctly and we are able to see them together.
 
 ![](images/cluster1.PNG?raw=true)
 <br>
 
-#### 5. Merging the caption with the respective images
+### 5. Merging the caption with the respective images
 * The next step involves merging the captions with the respective images so that they can be used for training. Here we are only taking the first caption of each image from the dataset as it becomes complicated to train with all 5 of them. 
 * Then we have to tokenize all the captions before feeding it to the model.
+
+### 6. Splitting the data for training and testing
+The tokenized captions along with the image data are split into training, test and validation sets as required and are then pre-processed as required for the input for the model.
+
+### 7. Building the LSTM model
+The step involves building the LSTM model with two or three input layers and one output layer where the captions are generated. The model can be trained with various number of nodes and layers. We start with 256 and try out with 512 and 1024. Various hyperparameters are used to tune the model.
+
+![](images/lstmmodel.PNG?raw=true)
+<br>
+
 

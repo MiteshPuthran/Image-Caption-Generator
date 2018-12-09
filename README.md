@@ -72,7 +72,7 @@ After the model is trained, it is tested on test dataset to see how it performs 
 ![](images/lstmmodel.PNG?raw=true)
 <br>
 
-These captions are comapred to the actual captions and evaluated using [BLEU](https://machinelearningmastery.com/calculate-bleu-score-for-text-python) scores as the evaluation metrics. A score closer to 1 indicates that the predicted and actual captions are very similar. As the scores are calculated for the whole test data, we get a mean value which contain good and not so good captions. Some of the examples can be seen below
+These generated captions are compared to the actual captions from the dataset and evaluated using [BLEU](https://machinelearningmastery.com/calculate-bleu-score-for-text-python) scores as the evaluation metrics. A score closer to 1 indicates that the predicted and actual captions are very similar. As the scores are calculated for the whole test data, we get a mean value which contain good and not so good captions. Some of the examples can be seen below
 
 ![](images/lstmmodel.PNG?raw=true)
 <br>

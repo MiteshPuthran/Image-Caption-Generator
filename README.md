@@ -61,7 +61,11 @@ When the VGG-16 model finishes extracting features from all the images from the 
 The tokenized captions along with the image data are split into training, test and validation sets as required and are then pre-processed as required for the input for the model.
 
 ### 7. Building the LSTM model
-The step involves building the LSTM model with two or three input layers and one output layer where the captions are generated. The model can be trained with various number of nodes and layers. We start with 256 and try out with 512 and 1024. Various hyperparameters are used to tune the model.
+
+![](images/lstm.PNG?raw=true)
+<br>
+LSTM model is been used beacuse it takes into consideration the state of the previous cell's output and the present cell's input for the current output. This is useful while generating the captions for the images.<br>
+The step involves building the LSTM model with two or three input layers and one output layer where the captions are generated. The model can be trained with various number of nodes and layers. We start with 256 and try out with 512 and 1024. Various hyperparameters are used to tune the model to generate acceptable captions
 
 ![](images/lstmmodel.PNG?raw=true)
 <br>

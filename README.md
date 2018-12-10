@@ -88,3 +88,6 @@ These generated captions are compared to the actual captions from the dataset an
 Implementing the model is a time consuming task as it involved lot of testing with different hyperparameters to generate better captions. The model generates good captions for the provided image but it can always be improved.
 
 ## References
+[Machine Learning Mastery](https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/).
+[Yumi's Blog](https://fairyonice.github.io/Develop_an_image_captioning_deep_learning_model_using_Flickr_8K_data.html).
+[GitHub](https://github.com/FairyOnIce).

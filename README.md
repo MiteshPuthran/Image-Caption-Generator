@@ -72,8 +72,17 @@ After the model is trained, it is tested on test dataset to see how it performs 
 ![](images/pred2.PNG?raw=true)
 <br>
 
-These generated captions are compared to the actual captions from the dataset and evaluated using [BLEU](https://machinelearningmastery.com/calculate-bleu-score-for-text-python) scores as the evaluation metrics. A score closer to 1 indicates that the predicted and actual captions are very similar. As the scores are calculated for the whole test data, we get a mean value which includes good and not so good captions. Some of the examples can be seen below
+These generated captions are compared to the actual captions from the dataset and evaluated using [BLEU](https://machinelearningmastery.com/calculate-bleu-score-for-text-python) scores as the evaluation metrics. A score closer to 1 indicates that the predicted and actual captions are very similar. As the scores are calculated for the whole test data, we get a mean value which includes good and not so good captions. Some of the examples can be seen below:
 
+#### Good Captions
+
+![](images/good.PNG?raw=true)
+<br>
+
+#### Bad Captions
+
+![](images/bad.PNG?raw=true)
+<br>
 
 ## Conclusion
 Implementing the model is a time consuming task as it involved lot of testing with different hyperparameters to generate better captions. The model generates good captions for the provided image but it can always be improved.

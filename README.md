@@ -90,10 +90,10 @@ These generated captions are compared to the actual captions from the dataset an
 
 ### Hyper-parameter tuning for the model
 
-![](images/chart.PNG?raw=true)
+![](images/chart.png?raw=true)
 <br>
 
-![](images/table.PNG?raw=true)
+![](images/table.png?raw=true)
 <br>
 
 ## Conclusion

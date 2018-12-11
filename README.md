@@ -88,6 +88,14 @@ These generated captions are compared to the actual captions from the dataset an
 ![](images/bad.PNG?raw=true)
 <br>
 
+### Hyper-parameter tuning for the model
+
+![](images/chart.PNG?raw=true)
+<br>
+
+![](images/table.PNG?raw=true)
+<br>
+
 ## Conclusion
 Implementing the model is a time consuming task as it involved lot of testing with different hyperparameters to generate better captions. The model generates good captions for the provided image but it can always be improved.
 

@@ -41,7 +41,7 @@ This is the first step of data pre-processing. The captions contain regular expr
 Start and end sequence need to be added to the captions because the captions vary in length for each image and the model has to understand the start and the end.
 
 ### 3. Extracting features from images
-* After dealing with the captions we then go ahead with processing the images. For this we make use of the pre-trained  [VGG-16](https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels.h5) pre-trained weights.
+* After dealing with the captions we then go ahead with processing the images. For this we make use of the pre-trained  [VGG-16](https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels.h5) weights.
 * Instead of using this pre-trained model for image classification as it was intended to be used. We just use it for extracting the features from the images. In order to do that we need to get rid of the last output layer from the model. The model then generates **4096** features from taking images of size (224,224,3).
 
 ![](images/vgg16.PNG?raw=true)

@@ -100,6 +100,12 @@ These generated captions are compared to the actual captions from the dataset an
 Implementing the model is a time consuming task as it involved lot of testing with different hyperparameters to generate better captions. The model generates good captions for the provided image but it can always be improved.
 
 ## References
-[Machine Learning Mastery](https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/).<br>
-[Yumi's Blog](https://fairyonice.github.io/Develop_an_image_captioning_deep_learning_model_using_Flickr_8K_data.html). <br>
-[GitHub](https://github.com/FairyOnIce).
+* [Image captioning using deep learning material](https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/).<br>
+* [Machine Learning Mastery](https://machinelearningmastery.com/caption-generation-inject-merge-architectures-encoder-decoder-model/).<br>
+* [LSTM Encoder Decoder](https://machinelearningmastery.com/encoder-decoder-long-short-term-memory-networks/).<br>
+* [VGG16](https://github.com/fchollet/deep-learning-models/releases/tag/v0.1).<br>
+* [Framing image description](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html).<br>
+* [Flickr Terms](https://www.flickr.com/help/terms).<br>
+* [FiryOnIce](https://fairyonice.github.io/Develop_an_image_captioning_deep_learning_model_using_Flickr_8K_data.html). <br>
+* [FiryOnIce Repo](https://github.com/FairyOnIce).<br>
+* [Flickr form](https://forms.illinois.edu/sec/1713398).

@@ -3,7 +3,7 @@
 ![](images/imagecaption.jpg?raw=true)
 © O'Reilly
 <br>
-* This is implementation of a image caption generator which generates a caption based on the things that are present in the image. Image captioning is a challenging task where computer vision and natural language processing both play a part to generate captions. This technology can be used in many new fields like helping visually impaired, medical image analysis, geospatial image analysis etc.
+* This is implementation of a image caption generator from [Yumi's Blog](https://fairyonice.github.io/Develop_an_image_captioning_deep_learning_model_using_Flickr_8K_data.html). which generates a caption based on the things that are present in the image. Image captioning is a challenging task where computer vision and natural language processing both play a part to generate captions. This technology can be used in many new fields like helping visually impaired, medical image analysis, geospatial image analysis etc.
 
 ## Use cases
 * Some detailed usecases would be like an visually impaired person taking a picture from his phone and then the caption generator will turn the caption to speech for him to understand. Doctors can use this technology to find tumors or some defects in the images or used by people for understanding geospatial images where they can find out more details about the terrain.
@@ -96,16 +96,9 @@ These generated captions are compared to the actual captions from the dataset an
 ![](images/table.png?raw=true)
 <br>
 
+![](images/tensorboard.png?raw=true)
+<br>
+
 ## Conclusion
 Implementing the model is a time consuming task as it involved lot of testing with different hyperparameters to generate better captions. The model generates good captions for the provided image but it can always be improved.
 
-## References
-* [Image captioning using deep learning material](https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/).<br>
-* [Machine Learning Mastery](https://machinelearningmastery.com/caption-generation-inject-merge-architectures-encoder-decoder-model/).<br>
-* [LSTM Encoder Decoder](https://machinelearningmastery.com/encoder-decoder-long-short-term-memory-networks/).<br>
-* [VGG16](https://github.com/fchollet/deep-learning-models/releases/tag/v0.1).<br>
-* [Framing image description](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html).<br>
-* [Flickr Terms](https://www.flickr.com/help/terms).<br>
-* [FiryOnIce](https://fairyonice.github.io/Develop_an_image_captioning_deep_learning_model_using_Flickr_8K_data.html). <br>
-* [FiryOnIce Repo](https://github.com/FairyOnIce).<br>
-* [Flickr form](https://forms.illinois.edu/sec/1713398).

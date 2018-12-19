@@ -96,7 +96,7 @@ These generated captions are compared to the actual captions from the dataset an
 ![](images/table.png?raw=true)
 <br>
 
-![](images/tensorboard.png?raw=true)
+![](images/tensorboard.PNG?raw=true)
 <br>
 
 ## Conclusion
